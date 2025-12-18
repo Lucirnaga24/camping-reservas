@@ -47,20 +47,15 @@ if (isset($_POST['confirmar_egreso'])) {
         </div>
 
         <form method="POST">
-            <p class="font-bold mb-3 text-[#6C2E2C] text-center">¿QUÉ DESEA HACER CON LA SEÑA?</p>
             <div class="flex flex-col gap-3 mb-6">
                 <label class="flex items-center gap-3 bg-green-100 p-4 rounded-full border border-green-500 cursor-pointer hover:bg-green-200 transition">
                     <input type="radio" name="manejo_senia" value="devolver" checked class="w-5 h-5">
                     <span class="text-green-800 font-bold uppercase">Devolver Seña ($<?= formatoMoneda($campamento['senia_original']) ?>)</span>
                 </label>
-                <label class="flex items-center gap-3 bg-red-100 p-4 rounded-full border border-red-500 cursor-pointer hover:bg-red-200 transition">
-                    <input type="radio" name="manejo_senia" value="retener" class="w-5 h-5">
-                    <span class="text-red-800 font-bold uppercase">Retener Seña (Queda en caja)</span>
-                </label>
             </div>
 
             <button type="submit" name="confirmar_egreso" class="w-full bg-[#6C2E2C] text-white py-4 rounded-full font-extrabold hover:bg-red-950 transition uppercase shadow-lg">
-                Procesar Egreso y Actualizar Caja
+                DAR DE BAJA
             </button>
         </form>
         <div class="mt-4 text-center">
