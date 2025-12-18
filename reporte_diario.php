@@ -102,8 +102,8 @@ $ingreso_total_neto = $ingreso_total_bruto - $total_egresos_reales;
         </div>
         
         <div class="text-center mt-10">
-            <a href="index.php" class="bg-[#6C2E2C] text-white px-10 py-4 rounded-full font-extrabold inline-block hover:bg-black transition duration-150 uppercase shadow-lg">
-                ← Salir al Listado
+            <a href="home.php" class="bg-[#6C2E2C] text-white px-10 py-4 rounded-full font-extrabold inline-block hover:bg-red-900 transition duration-150 uppercase shadow-lg">
+                ← IR AL INICIO
             </a>
         </div>
     </div>

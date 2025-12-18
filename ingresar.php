@@ -61,7 +61,7 @@ if (isset($_POST['apellido'])) {
 
                 $stmt = $mysqli->prepare($query_campamento);
                 $stmt->bind_param(
-                    "issssssiiissd",
+                    "issssssiisssd",
                     $num_carpa,
                     $dni,
                     $apellido,
