@@ -11,31 +11,31 @@
              bg-[linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('fondo.jpeg')] 
              bg-cover bg-center bg-no-repeat bg-fixed">
 
-    <div class="bg-white p-6 rounded-[2rem] mb-10 shadow-[0_10px_25px_rgba(0,0,0,0.2)]">
-        <img src="logo.png" alt="El Viejo Molino" class="w-48 md:w-56 h-auto">
+    <div class=" p-6 mb-4 ">
+        <img src="logo.png" alt="El Viejo Molino" class="w-80 h-auto">
     </div>
 
     <div class="flex flex-col gap-5 w-full max-w-sm">
         
-        <a href="ingresar.php" 
+        <!-- <a href="ingresar.php" 
            class="bg-[#8B2522] text-[#FDF28F] tracking-[0.25em] py-4 rounded-full text-center font-bold text-lg uppercase shadow-xl 
                   transition-all duration-300 ease-in-out hover:scale-[1.03] hover:bg-[#FDF28F] hover:text-[#8B2522]
                   hover:shadow-[0_10px_15px_-3px_rgba(0,0,0,0.3)] drop-shadow-[1px_1px_2px_rgba(0,0,0,0.2)]">
             CARPAS
+        </a> -->
+
+        <a href="productos.php" 
+           class="bg-[#8B2522] text-[#FDF28F] tracking-[0.25em] py-4 rounded-full text-center font-bold text-lg uppercase shadow-xl 
+                  transition-all duration-300 ease-in-out hover:scale-[1.03] hover:bg-[#FDF28F] hover:text-[#8B2522]
+                  hover:shadow-[0_10px_15px_-3px_rgba(0,0,0,0.3)] drop-shadow-[1px_1px_2px_rgba(0,0,0,0.2)]">
+                  $ CANTINA
         </a>
 
         <a href="productos.php" 
            class="bg-[#8B2522] text-[#FDF28F] tracking-[0.25em] py-4 rounded-full text-center font-bold text-lg uppercase shadow-xl 
                   transition-all duration-300 ease-in-out hover:scale-[1.03] hover:bg-[#FDF28F] hover:text-[#8B2522]
                   hover:shadow-[0_10px_15px_-3px_rgba(0,0,0,0.3)] drop-shadow-[1px_1px_2px_rgba(0,0,0,0.2)]">
-            PRECIOS CANTINA
-        </a>
-
-        <a href="reporte_diario.php" 
-           class="bg-[#8B2522] text-[#FDF28F] tracking-[0.25em] py-4 rounded-full text-center font-bold text-lg uppercase shadow-xl 
-                  transition-all duration-300 ease-in-out hover:scale-[1.03] hover:bg-[#FDF28F] hover:text-[#8B2522]
-                  hover:shadow-[0_10px_15px_-3px_rgba(0,0,0,0.3)] drop-shadow-[1px_1px_2px_rgba(0,0,0,0.2)]">
-            REPORTE DIARIO
+                  $ CAMPING / ACCESO
         </a>
 
         <a href="notas.php" 
@@ -51,6 +51,13 @@
                   hover:shadow-[0_10px_15px_-3px_rgba(0,0,0,0.3)] drop-shadow-[1px_1px_2px_rgba(0,0,0,0.2)]">
             CALCULADORA
         </a>
+
+        <!-- <a href="reporte_diario.php" 
+           class="bg-[#8B2522] text-[#FDF28F] tracking-[0.25em] py-4 rounded-full text-center font-bold text-lg uppercase shadow-xl 
+                  transition-all duration-300 ease-in-out hover:scale-[1.03] hover:bg-[#FDF28F] hover:text-[#8B2522]
+                  hover:shadow-[0_10px_15px_-3px_rgba(0,0,0,0.3)] drop-shadow-[1px_1px_2px_rgba(0,0,0,0.2)]">
+            REPORTE DIARIO
+        </a> -->
 
 
     </div>
