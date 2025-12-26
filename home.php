@@ -31,7 +31,7 @@
                   $ CANTINA
         </a>
 
-        <a href="productos.php" 
+        <a href="precios_camping.php" 
            class="bg-[#8B2522] text-[#FDF28F] tracking-[0.25em] py-4 rounded-full text-center font-bold text-lg uppercase shadow-xl 
                   transition-all duration-300 ease-in-out hover:scale-[1.03] hover:bg-[#FDF28F] hover:text-[#8B2522]
                   hover:shadow-[0_10px_15px_-3px_rgba(0,0,0,0.3)] drop-shadow-[1px_1px_2px_rgba(0,0,0,0.2)]">
